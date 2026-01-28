@@ -37,7 +37,7 @@ const projects = [
     description:
       "App creata come ultimo progetto di gruppo nel corso di Develhope.",
     tags: ["React", "PostgreSQL", "Express", "Tailwind"],
-    image: "/image/Micurapp.png",
+    image: "/Micurapp.png",
     github: "https://github.com/develhope/FS37-TeamProject-2",
   },
   {
@@ -267,7 +267,7 @@ export function App() {
           >
             <div className="overflow-hidden flex items-center justify-center bg-gray-100">
               <img
-                src="\Image\Sestito_Christian_Pio.jpg"
+                src="/Sestito_Christian_Pio.jpg"
                 alt="Sestito Christian Pio"
                 className="w-full h-full object-contain"
               />
