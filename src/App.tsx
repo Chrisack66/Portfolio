@@ -276,7 +276,7 @@ export function App() {
         </div>
       </section>
 
-      {/* ABOUT */}
+      {/* CHI SONO */}
       <section
         id="about"
         className={`py-20 sm:py-32 scroll-mt-20 overflow-hidden relative ${
@@ -308,15 +308,9 @@ export function App() {
               viewport={{ once: true }}
               className="space-y-6 text-center lg:text-left"
             >
-              <div>
-                <h3 className="text-violet-600 font-semibold tracking-wider uppercase text-sm mb-2">
-                  Chi sono
-                </h3>
-                <h2 className="text-3xl sm:text-4xl font-bold leading-tight">
-                  Trasformo le idee in{" "}
-                  <span className="text-indigo-600">realtà digitale</span>
-                </h2>
-              </div>
+              <h3 className="text-violet-600 font-bold tracking-wider uppercase text-2xl mb-4">
+                Chi sono
+              </h3>
 
               <div
                 className={`space-y-4 text-lg leading-relaxed ${
@@ -471,7 +465,7 @@ export function App() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">
-              Lavoriamo insieme
+              Lavoriamo insieme!
             </h2>
             <p className="text-lg text-violet-100 max-w-2xl mx-auto">
               Hai un progetto in mente? Compila questo form per farmelo sapere
